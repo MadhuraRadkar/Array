@@ -16,7 +16,7 @@ namespace Array.String_Builder.cs
             strbuilder.Append("Good morning");
             Console.WriteLine(strbuilder);
 
-            strbuilder.Remove(4, 5);
+            strbuilder.Remove(4,5);
             Console.WriteLine(strbuilder);
 
            // strbuilder.Replace('l', 'L');

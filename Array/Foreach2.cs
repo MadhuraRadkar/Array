@@ -10,7 +10,7 @@ namespace Array
     {
         static void Main(string[] args)
         {   // 2D
-            int[,] arr = new int[2, 3]
+            int[,] arr = new int[2,3]
             {
               {100,200,300 },
               {400,500,600 }

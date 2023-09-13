@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Array
+namespace Arrays.Sep1Test.cs
 {
-    internal class PrimeElement
-    {
+    public class PrimeOfArray
+    { // Mock Q.7 Print prime numbers from an array.
         static void Main(string[] args)
-        {  // Display prime elements from an array.
+        {
             int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, };
             foreach (int num in numbers)
             {
@@ -20,7 +20,7 @@ namespace Array
                 }
                 else
                 {
-                    for(int i = 2; i < num; i++)
+                    for (int i = 2; i < num; i++)
                     {
                         if (num % i == 0)
                         {
@@ -31,9 +31,9 @@ namespace Array
                 }
                 if (isPrime)
                 {
-                    Console.WriteLine("Prime element "+num);
+                    Console.WriteLine("Prime element " + num);
                 }
             }
         }
     }
-}
+ } 
